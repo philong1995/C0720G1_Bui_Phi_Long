@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><input type="text" id="amount"></td>
+        <td>
+            <select id="fromCurrency">
+                <option value="USD" >USD</option>
+                <option value="VND" >VND</option>
+            </select>
+        </td>
+        <td>
+            <select id="toCurrency">
+                <option value="VND" >VND</option>
+                <option value="USD" >USD</option>
+            </select>
+        </td>
+        <td>
+            <button style="background: darkorchid" type="button" onclick="myFunction()"><span style="color: aliceblue">Convert</span></button>
+        </td>
+    </tr>
+</table>
+<p id = "hienthi"></p>
+<script>
+    function myFunction(){
+        let amount = parseInt(document.getElementById('amount').value);
+        let fromCurrency  = document.getElementById("fromCurrency").value;
+        let toCurrency = document.getElementById("toCurrency").value;
+        let KetQua = 0;
+        if((fromCurrency == "USD") && (toCurrency == "VND")){
+            KetQua = amount*23000
+        }
+        else if((fromCurrency == "VND") && (toCurrency == "USD")){
+                KetQua = amount/23000
+        }
+            else {
+                KetQua = amount
+        }
+
+        document.getElementById("hienthi").innerHTML = KetQua
+    }
+</script>
+</body>
+</html>
