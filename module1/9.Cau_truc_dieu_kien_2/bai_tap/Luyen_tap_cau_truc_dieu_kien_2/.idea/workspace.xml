@@ -20,25 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4e365f7-b545-4961-9342-5e904f32b05e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/Switch_case1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/Switch_case2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/add2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/ex01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/if_else_if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/nam_nhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/switch_case_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../8.Cau_truc_dieu_kien_1/thuc_hanh/toan_tu_3_ngoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cau_lenh_switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chi_so_can_nang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DoYouLoveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../may_tinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/Su_kien_ban_phim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_kien_chuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_canh_tam_giac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doi_nhiet_do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dien_tich_hinh_vuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doi_don_vi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pt_bac_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pt_bac_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinh_S_tam_giac_vuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinh_gia_dien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuoi_nguoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -50,10 +53,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597372937624</updated>
-      <workItem from="1597372938762" duration="371000" />
+      <workItem from="1597372938762" duration="8799000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phương trình bậc 2</title>
+</head>
+<body>
+<script>
+    alert("Phương trình a.x^2 +b.x +c = 0")
+    let a = parseFloat(prompt("nhập vào số a: "));
+    let b = parseFloat(prompt("nhập vào số b: "));
+    let c = parseFloat(prompt("nhập vào số c: "));
+    let delta = Math.pow(b,2)-(4*a*c);
+    if ( delta >= 0 ) {
+        let x1 = (-b-2*Math.sqrt(delta))/(2*a);
+        let x2 = (-b+2*Math.sqrt(delta))/(2*a);
+        alert("phương trình có 2 nghiệnm: "+x1 +x2);
+    } else {
+        alert("phương trình vô nghiệm");
+    }
+</script>
+</body>
+</html>
