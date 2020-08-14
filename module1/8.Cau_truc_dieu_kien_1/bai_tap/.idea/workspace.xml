@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0519972-0ec9-4ba6-9802-0b59213c4692" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/Switch_case1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/Switch_case2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/add2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ex01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/if_else_if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/nam_nhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/switch_case_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/toan_tu_3_ngoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/bai_tap/Cau_lenh_switch_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/bai_tap/Chi_so_can_nang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/thuc_hanh/Su_kien_ban_phim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/thuc_hanh/su_kien_chuot.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1g2KdensAGYYEpKsGPBAVJeGj3L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0519972-0ec9-4ba6-9802-0b59213c4692" name="Default Changelist" comment="" />
+      <created>1597307335523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597307335523</updated>
+      <workItem from="1597307336565" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

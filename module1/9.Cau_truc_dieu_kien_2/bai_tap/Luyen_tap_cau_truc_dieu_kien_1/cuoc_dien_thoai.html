@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cước Điện Thoại</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập thời gian cuộc gọi(s): "));
+    if (a < 6) {
+        let b = a*80
+        alert("Số tiền cước là: " +b);
+    }else {
+        let b = 6*80+(a-6)*14
+        alert("Số tiền cước là: " +b);
+    }
+</script>
+</body>
+</html>

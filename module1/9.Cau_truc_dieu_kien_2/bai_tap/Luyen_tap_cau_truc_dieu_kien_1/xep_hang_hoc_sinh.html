@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp Hạng Học Sinh</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập điểm kiểm tra: "));
+    let b = parseInt(prompt("Nhập điểm thi giữa kì: "));
+    let c = parseInt(prompt("Nhập điểm thi cuối kì: "));
+    let diemtb = (a*10 + b*30 + c*60)/100;
+    if (diemtb > 8.5) {
+        alert("Học sinh xếp loại giỏi");
+    }else if (diemtb > 6.5) {
+        alert("Học sinh xếp loại khá");
+    }else if (diemtb > 5) {
+        alert("Học sinh xếp loại trung bình");
+    }else {
+        alert("học sinh xếp loại yếu");
+    }
+</script>
+</body>
+</html>

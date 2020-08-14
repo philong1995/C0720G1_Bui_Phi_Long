@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm GTLN</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập vào số thứ nhất: "));
+    let b = parseInt(prompt("Nhập vào số thứ hai: "));
+    let c = parseInt(prompt("Nhập vào số thứ ba: "));
+    if (a > b) {
+        if (a > c) {
+            alert("Só lớn nhất là: "+a);
+        }else {
+            alert("Số lớn nhất là: "+c);
+        }
+    }else if (b > c) {
+        alert("Số lớn nhất là: "+b);
+    }else {
+        alert("Số lớn nhất là: "+c);
+    }
+</script>
+</body>
+</html>

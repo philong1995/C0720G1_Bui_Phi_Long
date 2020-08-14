@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy Tính ĐƠn Giản</title>
+</head>
+<body>
+<form>
+    <fieldset style="width: 200px;height: 450px">
+        <input type="text" id="screen" value="" style="width: 205px;height: 25px"><br/><br/>
+        <button type="button" value="1" onclick="number1()" style="width: 50px;height: 50px">1</button>
+        <button type="button" value="2" onclick="number2()" style="width: 50px;height: 50px">2</button>
+        <button type="button" value="3" onclick="number3()" style="width: 50px;height: 50px">3</button>
+        <button type="button" value="+" onclick="cong()" style="width: 50px;height: 50px">+</button><br/><br/>
+        <button type="button" value="4" onclick="number4()" style="width: 50px;height: 50px">4</button>
+        <button type="button" value="5" onclick="number5()" style="width: 50px;height: 50px">5</button>
+        <button type="button" value="6" onclick="number6()" style="width: 50px;height: 50px">6</button>
+        <button type="button" value="-" onclick="tru()" style="width: 50px;height: 50px">-</button><br/><br/>
+        <button type="button" value="7" onclick="number7()" style="width: 50px;height: 50px">7</button>
+        <button type="button" value="8" onclick="number8()" style="width: 50px;height: 50px">8</button>
+        <button type="button" value="9" onclick="number9()" style="width: 50px;height: 50px">9</button>
+        <button type="button" value="*" onclick="nhan()" style="width: 50px;height: 50px">*</button><br/><br/>
+        <button type="button" value="c" onclick="xoa()" style="width: 50px;height: 50px"><span style="color: red">C</span></button>
+        <button type="button" value="0" onclick="number0()" style="width: 50px;height: 50px">0</button>
+        <button type="button" value="=" onclick="bang()" style="width: 50px;height: 50px">=</button>
+        <button type="button" value="/" onclick="chia()" style="width: 50px;height: 50px">/</button><br/><br/>
+    </fieldset>
+</form>
+<script>
+    function number1() {
+        document.getElementById("screen").value +=1;
+    }
+    function number2() {
+        document.getElementById("screen").value +=2;
+    }
+    function number3() {
+        document.getElementById("screen").value +=3;
+    }
+    function number4() {
+        document.getElementById("screen").value +=4;
+    }
+    function number5() {
+        document.getElementById("screen").value +=5;
+    }
+    function number6() {
+        document.getElementById("screen").value +=6;
+    }
+    function number7() {
+        document.getElementById("screen").value +=7;
+    }
+    function number8() {
+        document.getElementById("screen").value +=8;
+    }
+    function number9() {
+        document.getElementById("screen").value +=9;
+    }
+    function number0() {
+        document.getElementById("screen").value +=0;
+    }
+    function cong() {
+        document.getElementById("screen").value +="+";
+    }
+    function tru() {
+        document.getElementById("screen").value +="-";
+    }
+    function nhan() {
+        document.getElementById("screen").value +="*";
+    }
+    function chia() {
+        document.getElementById("screen").value +="/";
+    }
+    function xoa() {
+        document.getElementById("screen").value +=" ";
+    }
+    function bang() {
+        let tong = document.getElementById("screen").value;
+        resuil = eval(tong);
+        document.getElementById("screen").value = resuil;
+            }
+</script>
+</body>
+</html>
