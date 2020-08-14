@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính thuế TNCN</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt("Nhập vào thu nhập của bạn( triệu đồng ): "))
+    if (a <= 5) {
+        let tncn = a * 5 / 100;
+        alert("thuế TNCN bạn phải nộp là: " + tncn);
+    }else if (5 < a && a <= 10) {
+        let tncn = a*10/100;
+        alert("thuế TNCN bạn phải nộp là: " + tncn);
+    }else if (10 < a && a <= 18) {
+        let tncn = a*15/100;
+        alert("thuế TNCN bạn phải nộp là: " + tncn);
+    }else if (18 < a && a <= 32) {
+        let tncn = a*20/100;
+        alert("thuế TNCN bạn phải nộp là: " + tncn);
+    }else {
+        let tncn = a*25/100;
+        alert("thuế TNCN bạn phải nộp là: " + tncn);
+    }
+</script>
+</body>
+</html>

@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4e365f7-b545-4961-9342-5e904f32b05e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3_canh_tam_giac.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doi_nhiet_do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dien_tich_hinh_vuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doi_don_vi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pt_bac_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pt_bac_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinh_S_tam_giac_vuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinh_gia_dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuoi_nguoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinh_thue.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597372937624</updated>
       <workItem from="1597372938762" duration="8799000" />
+      <workItem from="1597387373984" duration="602000" />
     </task>
     <servers />
   </component>
@@ -90,5 +83,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
