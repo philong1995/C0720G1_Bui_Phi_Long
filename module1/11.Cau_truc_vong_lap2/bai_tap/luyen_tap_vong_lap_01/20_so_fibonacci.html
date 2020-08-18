@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20 số fibonacci</title>
+</head>
+<body>
+<script>
+    let x = 0;
+    let y = 1;
+    document.write(x +"-");
+    let count = 0;
+    for (;count < 18; count++) {
+        z = x + y;
+        document.write(z +" - ");
+        temp = x;
+        x = x + y;
+        y = temp;
+    }
+
+</script>
+</body>
+</html>

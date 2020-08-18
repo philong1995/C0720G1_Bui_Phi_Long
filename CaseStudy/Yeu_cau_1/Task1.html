@@ -12,12 +12,8 @@
     let IDcard = prompt('Vui lòng nhập số CMND của bạn: ');
     document.write('Số CMND của bạn là: '+IDcard);
     document.write('<br/>');
-    let day = prompt('Bạn sinh ngày: ');
-    let month = prompt('Bạn sinh tháng: ');
-    let year = prompt('Bạn sinh năm: ');
-    document.write('Ngày sinh của bạn là: '+day);
-    document.write('/'+month);
-    document.write('/'+year);
+    let dob = prompt('Ngày tháng năm sinh của bạn (dd/mm/yyyy): ');
+    document.write('Ngày sinh của bạn là: '+dob);
     document.write('<br/>');
     let email = prompt('Vui lòng nhập email của bạn: ');
     document.write('Email của bạn là: '+email);
@@ -32,13 +28,69 @@
     // tos = type of service
     document.write('Bạn muốn thuê: '+tos);
     document.write('<br/>');
-    let rentday = prompt('Bạn muốn thuê bao nhiêu ngày: ');
+    let rentday = parseInt(prompt('Bạn muốn thuê bao nhiêu ngày: '));
     document.write('Số ngày bạn muốn thuê là: '+rentday);
     document.write('<br/>');
     // tor = type of room
     let tor = prompt('Loại phòng(Vip/Business/Normal): ');
     document.write('Bạn muốn thuê phòng: '+tor);
     document.write('<br/>');
+    let diamond = parseFloat(20/100);
+    let platinum = parseFloat(15/100);
+    let gold = parseFloat(10/100);
+    let silver = parseFloat(5/100);
+    let member = 0;
+    let villa = parseInt(500);
+    let house = parseInt(300);
+    let room = parseInt(100);
+    if (Customer === "Diamond" && tos === "Villa" ) {
+        let pay = parseFloat(villa*rentday*(1-diamond));
+        document.write("Bạn là thành viên Diamond, sử dụng dịch vụ Villa, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Diamond" && tos === "House" ) {
+        let pay = parseFloat(house*rentday*(1-diamond));
+        document.write("Bạn là thành viên Diamond, sử dụng dịch vụ House, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Diamond" && tos === "Room" ) {
+        let pay = parseFloat(room * rentday * (1 - diamond ));
+        document.write("Bạn là thành viên Diamond, sử dụng dịch vụ Room, số tiền phải trả($) là: " + pay);
+    }else if (Customer === "Platinum" && tos === "Villa" ) {
+        let pay = parseFloat(villa*rentday*(1-platinum));
+        document.write("Bạn là thành viên Platinum, sử dụng dịch vụ Villa, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Platinum" && tos === "House" ) {
+        let pay = parseFloat(house*rentday*(1-platinum));
+        document.write("Bạn là thành viên Platinum, sử dụng dịch vụ House, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Platinum" && tos === "Room" ) {
+        let pay = parseFloat(room * rentday * (1 - platinum ));
+        document.write("Bạn là thành viên Platinum, sử dụng dịch vụ Room, số tiền phải trả($) là: " + pay);
+    }else if (Customer === "Gold" && tos === "Villa" ) {
+        let pay = parseFloat(villa*rentday*(1-gold));
+        document.write("Bạn là thành viên Gold, sử dụng dịch vụ Villa, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Gold" && tos === "House" ) {
+        let pay = parseFloat(house*rentday*(1-gold));
+        document.write("Bạn là thành viên Gold, sử dụng dịch vụ House, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Gold" && tos === "Room" ) {
+        let pay = parseFloat(room * rentday * (1 - gold ));
+        document.write("Bạn là thành viên Platinum, sử dụng dịch vụ Room, số tiền phải trả($) là: " + pay);
+    }else if (Customer === "Silver" && tos === "Villa" ) {
+        let pay = parseFloat(villa*rentday*(1-silver));
+        document.write("Bạn là thành viên Silver, sử dụng dịch vụ Villa, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Silver" && tos === "House" ) {
+        let pay = parseFloat(house*rentday*(1-silver));
+        document.write("Bạn là thành viên Silver, sử dụng dịch vụ House, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Silver" && tos === "Room" ) {
+        let pay = parseFloat(room * rentday * (1 - silver ));
+        document.write("Bạn là thành viên Silver, sử dụng dịch vụ Room, số tiền phải trả($) là: " + pay);
+    }else if (Customer === "Member" && tos === "Villa" ) {
+        let pay = parseFloat(villa*rentday*(1-member));
+        document.write("Bạn là thành viên Member, sử dụng dịch vụ Villa, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Member" && tos === "House" ) {
+        let pay = parseFloat(house*rentday*(1-member));
+        document.write("Bạn là thành viên Member, sử dụng dịch vụ House, số tiền phải trả($) là: "+pay);
+    }else if (Customer === "Member" && tos === "Room" ) {
+        let pay = parseFloat(room * rentday * (1 - member ));
+        document.write("Bạn là thành viên Member, sử dụng dịch vụ Room, số tiền phải trả($) là: " + pay);
+    }else {
+        document.write("Bạn đã nhập sai, vui lòng nhập lại!");
+    }
 </script>
 </body>
 </html>

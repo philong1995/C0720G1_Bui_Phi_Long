@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập Nhiệt Độ</title>
+</head>
+<body>
+<script>
+    let celcius = " Nhập nhiệt độ ";
+    while (celcius) {
+        let celcius = prompt("Nhập vào nhiệt độ: ");
+        if (celcius < 20) {
+            alert("Hẫy tăng nhiệt độ lên.");
+        } else if (celcius > 100) {
+            alert("Hãy giảm nhiệt độ xuống.");
+        }else {
+            alert(" nhiệt độ của bạn là: "+celcius);
+        }
+    }
+</script>
+</body>
+</html>

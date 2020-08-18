@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20 Số Nguyên Tố</title>
+</head>
+<body>
+<script>
+    let number = " "
+    count = 0;
+    N = 2;
+    while (count < 20) {
+        let i;
+        let snt = true;
+        for (i = 2; i < N; i++) {
+            if (N % i === 0) {
+                snt = false;
+                break;
+            }
+        }
+        if (snt) {
+            count++
+            number += N + ",";
+        }
+        N++
+    }
+    alert(number);
+</script>
+</body>
+</html>

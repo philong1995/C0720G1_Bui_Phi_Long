@@ -19,8 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4e365f7-b545-4961-9342-5e904f32b05e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8d01dbb0-5bce-4a1e-8b98-c70af6421d3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/do_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/vong_lap_long_nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/while2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_so_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bang_cuu_chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luyen_tap_vong_lap_01/dem_so.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy/Yeu_cau_1/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy/Yeu_cau_1/Task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/bai_tap/Luyen_tap_cau_truc_dieu_kien_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/bai_tap/Luyen_tap_cau_truc_dieu_kien_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +45,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1g4TbXecLrJYb7e9DyY57lvUoKa" />
+  <component name="ProjectId" id="1gDUd5b4sGHQbzd3AZK9997pEa1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/luyen_tap_vong_lap_01" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,16 +69,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4e365f7-b545-4961-9342-5e904f32b05e" name="Default Changelist" comment="" />
-      <created>1597372937624</created>
+      <changelist id="8d01dbb0-5bce-4a1e-8b98-c70af6421d3a" name="Default Changelist" comment="" />
+      <created>1597648740734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597372937624</updated>
-      <workItem from="1597372938762" duration="8799000" />
-      <workItem from="1597387373984" duration="602000" />
-      <workItem from="1597390418108" duration="82000" />
-      <workItem from="1597390508938" duration="8000" />
-      <workItem from="1597390536615" duration="45000" />
+      <updated>1597648740734</updated>
+      <workItem from="1597648741788" duration="9307000" />
+      <workItem from="1597689632338" duration="20000" />
+      <workItem from="1597689703236" duration="622000" />
+      <workItem from="1597691392774" duration="97000" />
+      <workItem from="1597692149565" duration="8000" />
     </task>
     <servers />
   </component>
@@ -88,9 +98,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="750" y="287" key="FileChooserDialogImpl" timestamp="1597390576791">
+    <state x="750" y="287" key="FileChooserDialogImpl" timestamp="1597692155937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597390576791" />
+    <state x="750" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597692155937" />
   </component>
 </project>

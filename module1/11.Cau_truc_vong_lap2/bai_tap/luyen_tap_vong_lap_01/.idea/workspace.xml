@@ -19,8 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4e365f7-b545-4961-9342-5e904f32b05e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fd8f0008-89a1-45cd-a500-13c191031781" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap/thuc_hanh/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap/thuc_hanh/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap/thuc_hanh/do_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap/thuc_hanh/vong_lap_long_nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap/thuc_hanh/while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap/thuc_hanh/while2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_so_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bang_cuu_chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_den_100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_so_fibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30_so_tn_chia_het_cho_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game_dem_so.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dem_so.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fibonacci_chia_het_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap_nhiet_do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tong_20_so_fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../CaseStudy/Yeu_cau_1/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../CaseStudy/Yeu_cau_1/Task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../9.Cau_truc_dieu_kien_2/bai_tap/Luyen_tap_cau_truc_dieu_kien_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../9.Cau_truc_dieu_kien_2/bai_tap/Luyen_tap_cau_truc_dieu_kien_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +54,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1g4TbXecLrJYb7e9DyY57lvUoKa" />
+  <component name="ProjectId" id="1gEphxooRp1YkxlCfuuCMWIpg59" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../10.Cau_truc_vong_lap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,16 +76,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4e365f7-b545-4961-9342-5e904f32b05e" name="Default Changelist" comment="" />
-      <created>1597372937624</created>
+      <changelist id="fd8f0008-89a1-45cd-a500-13c191031781" name="Default Changelist" comment="" />
+      <created>1597689728278</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597372937624</updated>
-      <workItem from="1597372938762" duration="8799000" />
-      <workItem from="1597387373984" duration="602000" />
-      <workItem from="1597390418108" duration="82000" />
-      <workItem from="1597390508938" duration="8000" />
-      <workItem from="1597390536615" duration="45000" />
+      <updated>1597689728278</updated>
+      <workItem from="1597689729327" duration="1644000" />
+      <workItem from="1597692158777" duration="2216000" />
+      <workItem from="1597715746977" duration="11529000" />
     </task>
     <servers />
   </component>
@@ -86,11 +101,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="750" y="287" key="FileChooserDialogImpl" timestamp="1597390576791">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="750" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597390576791" />
   </component>
 </project>

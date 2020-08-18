@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng 20 số fibonacci</title>
+</head>
+<body>
+<script>
+    let x = 0;
+    let y = 1;
+    let count = 0;
+    let N = 0
+    for (;count < 18; count++) {
+        z = x + y;
+        temp = x;
+        x = x + y;
+        y = temp;
+        N += z;
+    }document.write(" Tổng 20 số đầu tiền trong dãy fibonacci là: "+N)
+</script>
+</body>
+</html>
