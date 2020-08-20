@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d01dbb0-5bce-4a1e-8b98-c70af6421d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/do_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/vong_lap_long_nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../10.Cau_truc_vong_lap/thuc_hanh/while2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bang_cuu_chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luyen_tap_vong_lap_01/dem_so.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CaseStudy/Yeu_cau_1/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy/Yeu_cau_1/Task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/bai_tap/Luyen_tap_cau_truc_dieu_kien_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/bai_tap/Luyen_tap_cau_truc_dieu_kien_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luyen_tap_vong_lap_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/luyen_tap_vong_lap_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9.Cau_truc_dieu_kien_2/thuc_hanh/Slide 08 - Arrays.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/luyen_tap_vong_lap_01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,6 +70,7 @@
       <workItem from="1597689703236" duration="622000" />
       <workItem from="1597691392774" duration="97000" />
       <workItem from="1597692149565" duration="8000" />
+      <workItem from="1597745361572" duration="23000" />
     </task>
     <servers />
   </component>
@@ -98,9 +90,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="750" y="287" key="FileChooserDialogImpl" timestamp="1597692155937">
+    <state x="750" y="287" key="FileChooserDialogImpl" timestamp="1597745382897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597692155937" />
+    <state x="750" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597745382897" />
   </component>
 </project>

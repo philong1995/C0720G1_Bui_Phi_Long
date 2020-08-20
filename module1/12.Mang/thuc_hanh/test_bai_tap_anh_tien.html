@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>JavaScript Arrays</h2>
+
+<p>The best way to loop through an array is using a standard for loop:</p>
+
+<p id="demo"></p>
+<script>
+    // let x = [1,3,5,7];
+    // let y = [2,4,6,8];
+    // x[1] = y[x.length - 4];
+    // document.write(x);
+    // let number = [1,3,5,7,9];
+    // for (i = 0; i < number.length; i++) {
+    //     text += number[i] + "<br>";
+    //     alert(number.length);
+    // }
+    // var fruits, text, fLen, i;
+    // fruits = ["Banana", "Orange", "Apple", "Mango"];
+    // fruits.push("lemon")
+    // fLen = fruits.length;
+    //
+    // text = "<ul>";
+    // for (i = 0; i < fLen; i++) {
+    //
+    //     text += "<li>" + fruits[i] + "</li>";
+    // }
+    // text += "</ul>";
+    //
+    // document.getElementById("demo").innerHTML = text;
+    let mobile = ["HTC", "Nokia", "SamSung", "LG", "Apple"];
+    alert(mobile);
+    let number = parseInt(prompt("Nhập vị trí bạn muốn chèn sau phần tử thứ: "));
+    mobile.splice(number,0, " Huawei ", " Oppo ", " Sony ", " Xiaomi ");
+
+    document.write(mobile);
+
+</script>
+</body>
+</html>

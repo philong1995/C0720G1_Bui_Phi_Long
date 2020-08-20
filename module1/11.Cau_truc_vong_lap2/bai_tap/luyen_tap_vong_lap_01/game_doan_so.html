@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Đoán Sô</title>
+</head>
+<body>
+<h2>Hãy Đoán Số Thử Xem</h2>
+<button type="button" name="butt" onclick="playgame()" value="play">Chơi Ngay</button>
+<script>
+    function playgame () {
+        let sodau = parseInt(prompt("Bắt đầu từ số: "));
+        let socuoi = parseInt(prompt("Kết thúc ở số: "));
+        let random = Math.ceil((socuoi - sodau) * Math.random()) + sodau;
+        for ( i = 1; i <= 3; i++) {
+            let sodoan = parseInt(prompt("Số bạn đoán là: "));
+            if (sodoan == random) {
+                alert("Bạn đã đoán đúng.")
+                break;
+            } else if (sodoan < random) {
+                alert("Số bạn nhập nhỏ hơn đáp án, vui lòng nhập lại số khác!");
+            } else {
+                alert("Số bạn nhập lớn hơn đáp án, vui lòng nhập lại số khác!");
+            }
+        }
+    }
+</script>
+</body>
+</html>

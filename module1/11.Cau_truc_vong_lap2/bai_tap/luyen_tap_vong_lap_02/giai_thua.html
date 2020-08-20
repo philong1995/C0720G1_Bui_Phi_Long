@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>N giai thừa</title>
+</head>
+<body>
+<script>
+    // let N = parseInt(prompt("Nhập số giai thừa: "));
+    // let i = 1;
+    // let j = 1;
+    // let count = 0;
+    // while (count < N) {
+    //     let z = i*j;
+    //     i = j;
+    //     j++;
+    //     giaithua = z*j;
+    //     document.write(giaithua +" - ");
+    //     count++;
+    // }
+
+    let N = parseInt(prompt("Nhập số giai thừa: "));
+    let i = 1;
+    let j = 1;
+    while (i < N) {
+        i++;
+        j=j*i;
+    }document.write("giai thừa của " +N );document.write(" là: " +j);
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be8f8fdf-63ab-402a-a5b2-e169ff4177d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/game_doan_so.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/day_fibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/giai_thua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/lai_ngan_hang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/tam_giac_vuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/co_caro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/dao_nguoc_phan_tu_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/test_bai_tap_anh_tien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/thao_tac_voi_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/tim_GTLN_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/tim_gia_tri_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/chu_hoa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/nhap_so.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/su_dung_ham_co_san.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/tu_dien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/Game_dem_so.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.Cau_truc_dieu_kien_2/thuc_hanh/Slide 08 - Arrays.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gGeW4t6x9SuwjLGnV9BTklIbVK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be8f8fdf-63ab-402a-a5b2-e169ff4177d2" name="Default Changelist" comment="" />
+      <created>1597745384578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597745384578</updated>
+      <workItem from="1597745385620" duration="3339000" />
+      <workItem from="1597770979229" duration="5285000" />
+      <workItem from="1597801421104" duration="8654000" />
+      <workItem from="1597848634203" duration="8498000" />
+      <workItem from="1597886690561" duration="5240000" />
+      <workItem from="1597905672343" duration="928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1597745495338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="651" y="267" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597745495338" />
+  </component>
+</project>

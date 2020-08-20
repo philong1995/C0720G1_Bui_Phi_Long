@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dãy Fibonacci</title>
+</head>
+<body>
+<script>
+    let x = 0;
+    let y = 1;
+    document.write(x +" - ");
+    let number = parseInt(prompt("Nhập số lượng số bạn muốn: "));
+    count = 0;
+    number = number - 1;
+    while (count < number) {
+        z = x + y;
+        document.write(z +" - ");
+        temp = x;
+        x = x + y;
+        y = temp;
+        count++;
+    }
+</script>
+</body>
+</html>

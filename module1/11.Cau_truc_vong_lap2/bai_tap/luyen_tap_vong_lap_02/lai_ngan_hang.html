@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lãi Ngân Hàng</title>
+</head>
+<body>
+<script>
+    let money = parseFloat(prompt("Số tiền bạn vay: "));
+    let month = parseInt(prompt("Số tháng bạn vay: "));
+    let lai = parseFloat(prompt("Số % lãi mỗi tháng: "));
+    let interest = parseFloat(lai/100);
+    document.write("Bạn vay " +money +" đồng");
+    document.write("<br/>");
+    document.write("Bạn vay " +month +" tháng");
+    document.write("<br/>");
+    document.write("Mõi tháng sẽ lãi " +lai +"%");
+    document.write("<br/>");
+    let i = 0;
+    let tienlai = 0;
+    for (;i < month;i++) {
+        let lai1thang = money*interest;
+        tienlai = tienlai + lai1thang;
+        money = money + tienlai;
+    }document.write("số tiền vay lãi mẹ đã lãi con sau "+month +" tháng là " +tienlai +" đồng");
+
+
+</script>
+</body>
+</html>
