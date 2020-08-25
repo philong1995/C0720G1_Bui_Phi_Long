@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ký tự số</title>
+</head>
+<body>
+<script>
+    function check (number) {
+        if (number <= 9 && number >= 0) {
+            ketqua = true;
+        }else {
+            ketqua = false;
+        }return ketqua;
+    }
+    let kiTu = prompt("Nhập vào 1 kí tự bất kì: ");
+    let hienThi = check(kiTu);
+    alert(hienThi);
+</script>
+</body>
+</html>

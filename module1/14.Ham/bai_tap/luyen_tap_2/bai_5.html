@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập vào 3 số nguyên</title>
+</head>
+<body>
+<script>
+    function minArray (array) {
+        let min = array[0];
+        let i = 1;
+        for (;i < array.length; i++) {
+            if (min > array[i]) {
+                min = array[i];
+            }
+        }return min;
+    }
+    let soBeNhat = [5, 2, 8];
+    let hienThi = minArray(soBeNhat);
+    alert(hienThi);
+</script>
+</body>
+</html>

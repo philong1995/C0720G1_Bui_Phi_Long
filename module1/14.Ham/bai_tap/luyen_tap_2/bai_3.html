@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giai thừa</title>
+</head>
+<body>
+<script>
+    function giaiThua (N) {
+        let i = 1
+        let j = 1;
+        while (i < N) {
+            i++;
+            j = j*i;
+            ketQua = " Giai thừa của " +N + " là " +j;
+        }
+        return ketQua
+    }
+    let number = parseInt(prompt("Nhập vào số: "));
+    let hienthi = giaiThua(number)
+    alert(hienthi);
+</script>
+</body>
+</html>

@@ -5,6 +5,20 @@
     <title>Bài 2</title>
 </head>
 <body>
+<script>
+    function chuVi (r) {
+        return ketqua = 2*3.14*r;
+    }
+    function dienTich (r) {
+        return ketqua = 3.14*r*r
+    }
+    let chuViHinhTron = parseFloat(prompt("Nhập bán kính hình tròn: "));
+    let hienthi1 = chuVi(chuViHinhTron);
+    alert("Chu vi hình tròn là "+hienthi1);
 
+    let dienTichHinhTron = parseFloat(prompt("Nhập bán kính hình tròn: "));
+    let hienthi2 = dienTich(dienTichHinhTron);
+    alert("Diện tích hình tròn là "+hienthi2);
+</script>
 </body>
 </html>

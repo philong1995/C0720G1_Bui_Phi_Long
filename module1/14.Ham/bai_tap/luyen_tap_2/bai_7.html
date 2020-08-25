@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi chỗ 2 số nguyên</title>
+</head>
+<body>
+<script>
+    function doiSo (number1,number2) {
+        let ketqua = "";
+        number1 = temp;
+        temp = number2;
+        number2 = number1;
+        ketqua = "giá trị a là " +number1 +" và giá trị b  là " + number2;
+        return ketqua
+    }
+    let a = parseFloat(prompt("Nhập vào số thứ nhất: "));
+    let b = parseFloat(prompt("Nhập vào số thứ hai: "));
+    let hienThi = doiSo(a,b);
+    alert(hienThi);
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số nguyên dương</title>
+</head>
+<body>
+<script>
+    function soNguyenDuong (number) {
+        if ( number === parseInt(number ) && number > 0) {
+            ketQua = true;
+        }else {
+            ketQua = false;
+        }return ketQua;
+    }
+    let soBatKi = parseFloat(prompt("Nhập vào 1 số bất kì: "));
+    let hienThi = soNguyenDuong(soBatKi);
+    alert(hienThi);
+</script>
+</body>
+</html>
