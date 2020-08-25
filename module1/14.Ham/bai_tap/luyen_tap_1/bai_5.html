@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let ngoiSao = ["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"];
+    let chomSao = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    function timSao (tenSao) {
+        let i = 0;
+        let ketqua = " ";
+        for (; i < ngoiSao.length; i++) {
+            if (tenSao === ngoiSao[i]) {
+                ketqua = "Ngôi sao bạn cần tìm là " + ngoiSao[i] + " thuộc chòm sao " + chomSao[i];
+                break;
+            } else {
+                ketqua ="Không có ngôi sao bạn cần tìm.";
+            }
+        }
+        return ketqua
+    }
+    let name1 = prompt("Nhập tên ngôi sao bạn muốn tìm.");
+    let hienThi = timSao(name1);
+    alert(hienThi);
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    let array = [];
+    let N = parseInt(prompt("Nhấp vào số phần tử có trong mảng"));
+    let i = 0;
+    for (;i < N; i++) {
+        array[i] = prompt("phần tử thứ " +i +" có giá trị: ")
+    }
+    alert("mảng có các phần tử là: " +array);
+    let first = 0;
+    let last = array.length - 1;
+    while (first < last) {
+        let b = array[first];
+        array[first] = array[last];
+        array[last] = b;
+        first++;
+        last--;
+    }console.log(array)
+</script>
+</body>
+</html>

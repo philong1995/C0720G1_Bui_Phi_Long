@@ -20,25 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8f8fdf-63ab-402a-a5b2-e169ff4177d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/game_doan_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/day_fibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/giai_thua.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/lai_ngan_hang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_02/tam_giac_vuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/co_caro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/dao_nguoc_phan_tu_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/test_bai_tap_anh_tien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/thao_tac_voi_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/tim_GTLN_trong_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.Mang/thuc_hanh/tim_gia_tri_trong_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/chu_hoa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/nhap_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/su_dung_ham_co_san.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/tu_dien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.Cau_truc_vong_lap2/bai_tap/luyen_tap_vong_lap_01/Game_dem_so.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.Cau_truc_dieu_kien_2/thuc_hanh/Slide 08 - Arrays.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_1/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/luyen_tap_mang_2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.Ham/thuc_hanh/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.Ham/thuc_hanh/ham_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.Mang_2/bai_tap/chu_hoa.html" beforeDir="false" afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/chu_hoa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.Mang_2/bai_tap/tu_dien.html" beforeDir="false" afterPath="$PROJECT_DIR$/13.Mang_2/bai_tap/tu_dien.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,7 +85,9 @@
       <workItem from="1597801421104" duration="8654000" />
       <workItem from="1597848634203" duration="8498000" />
       <workItem from="1597886690561" duration="5240000" />
-      <workItem from="1597905672343" duration="928000" />
+      <workItem from="1597905672343" duration="10113000" />
+      <workItem from="1597973540764" duration="14082000" />
+      <workItem from="1598206621809" duration="67000" />
     </task>
     <servers />
   </component>
@@ -107,6 +107,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="768" y="302" key="FileChooserDialogImpl" timestamp="1598206687161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="768" y="302" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598206687161" />
     <state x="651" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1597745495338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

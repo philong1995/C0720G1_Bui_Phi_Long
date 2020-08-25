@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let number = [3,6,8,9,5,34,21,16,27,4];
+    let max = 0;
+    let j = 0;
+    let z = 0;
+    let a = 0;
+    for (;j < number.length; j++) {
+        if ( number[j] > max ) {
+            max = number[j];
+        }
+         for (;z < number.length; z++) {
+            a = a +number[z];
+        }
+
+    }document.write("Số lớn nhất là " +max +" và trung bình cộng của các phần tử trong mảng là " +a/10);
+</script>
+</body>
+</html>

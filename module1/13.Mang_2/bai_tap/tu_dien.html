@@ -5,8 +5,28 @@
     <title>Từ Điển</title>
 </head>
 <body>
+<input type="text" id="screen">
 <button type="button" name="translate" id="translate" onclick="trans()">Translate</button>
+<label id="ketQua"></label>
 <script>
+    function trans() {
+        let tu = document.getElementById("screen").value;
+        let engLish = [dog, cat, bug, ant];
+        let tiengViet = [chó, mèo, bọ, kiến];
+        for (let i = 0; i < engLish.length; i++) {
+            if (tu === engLish[i]) {
+                for (let j = 0; j < tiengViet.length; j++) {
+                    if (i === j) {
+                        tu = tiengViet[j];
+                        document.getElementById("ketQua").innerHTML = +tu;
+                        break;
+                    }
+                }
+            }else {
+                document.getElementById("ketQua").innerHTML = " file not found ";
+            }
+        }
+    }
 
 </script>
 </body>

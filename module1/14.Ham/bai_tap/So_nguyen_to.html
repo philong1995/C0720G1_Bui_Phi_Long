@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số nguyên tố</title>
+</head>
+<body>
+<script>
+    function timSoNguyenTo (number) {
+        let soNguyenTo = true;
+        if (number < 2){
+            soNguyenTo = false;
+        }
+        else {
+            for (let i = 2; i < number - 1; i++) {
+                if (number % i == 0) {
+                    soNguyenTo = false;
+                }
+            }
+        }
+        if (soNguyenTo == true){
+            document.write(number + " là số nguyên tố <br/>");
+        }
+        else if (soNguyenTo == false){
+            document.write(number + " không phải là số nguyên tố <br/>");
+        }
+    }
+    let number2 = parseInt(prompt("Nhập vào 1 số nguyên."));
+    let soNguyenTo2 = timSoNguyenTo(number2);
+    let number3 = parseInt(prompt("Nhập vào 1 số nguyên."));
+    let soNguyenTo3 = timSoNguyenTo(number3);
+    let number4 = parseInt(prompt("Nhập vào 1 số nguyên."));
+    let soNguyenTo4 = timSoNguyenTo(number4);
+    let number5 = parseInt(prompt("Nhập vào 1 số nguyên."));
+    let soNguyenTo5 = timSoNguyenTo(number5);
+
+</script>
+</body>
+</html>

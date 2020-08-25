@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8</title>
+</head>
+<body>
+<script>
+    let points = [];
+    let i = 0;
+    for (;i < 10; i++) {
+        points[i] = parseInt(prompt("nhập vào phần tử thứ " +i));
+    }
+    points.sort(function(a, b){return b - a});
+    console.log(points);
+</script>
+</body>
+</html>

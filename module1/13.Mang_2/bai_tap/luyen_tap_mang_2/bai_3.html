@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let array = [];
+    let N = parseInt(prompt("Nhấp vào số phần tử có trong mảng"));
+    let i = 0;
+    for (;i < N; i++) {
+        array[i] = prompt("Phần tử thứ " +i +" có giá trị: ")
+    }
+    document.write("Mảng có các phần tử là: " +array +"<br/>");
+    let j = 0;
+    let z = 0;
+    for (; j < N; j++) {
+        if (array[j] <= "9" && array[j] >= "0") {
+            z++;
+        }
+    }document.write("Số lượng các phần tử số trong mảng là: "+z);
+</script>
+</body>
+</html>

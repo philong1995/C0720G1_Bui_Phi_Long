@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    function soSanh(arr) {
+        if (arr[0] > arr[1]) {
+            alert("Giá trị của tham số thứ nhất là "+arr[0] +" và giá trị của tham số thứ 2 là "+arr[1]);
+        }else {
+            let a = arr[0] + arr[1];
+            alert("Tổng của 2 tham số là "+a);
+        }
+    }
+    let arr1 = [];
+    arr1[0] = parseInt(prompt("Nhập tham số thứ nhất: "));
+    arr1[1] = parseInt(prompt("Nhập tham số thứ hai: "));
+    let hienthi = soSanh(arr1);
+</script>
+</body>
+</html>

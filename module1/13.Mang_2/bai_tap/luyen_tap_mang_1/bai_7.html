@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    let i = 0;
+    let number = []
+    for (;i < 10; i++) {
+        number[i] = parseInt(prompt("Nhập vào phần tử thứ "+i +" của mảng"));
+    }
+    alert(number);
+    let j = 0;
+    let V = parseInt(prompt("Nhập vào số nguyên V"));
+    for (;j < number.length; j++) {
+        if (V === number[j]) {
+            number.splice(j,1);
+            number.push(0);
+            alert(number);
+            break;
+        }
+    }
+</script>
+</body>
+</html>

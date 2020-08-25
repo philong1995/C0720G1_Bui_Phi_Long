@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1 + 2</title>
+</head>
+<body>
+<script>
+    let fullname = "Bùi Phi Long";
+    let IDcard = "197347541";
+    let dob = "01/04/1995";
+    let email = "long.01.04.1995@gmail.com";
+    let address = "21/32 Trường Sơn - Cẩm Lệ - Đà Nẵng";
+    let Customer = "Diamond";
+    let tos = "Villa";
+    // tos = type of service
+    let rentday = "7";
+    // tor = type of room
+    let tor = "Vip";
+    let choose = parseInt(prompt("1.Hiển thị toàn bộ thông tin khách hàng." + "\n"
+        +"2.Chỉnh sửa thông tin khách hàng." + "\n"
+        +"3.Hiển thị giá sau khi được giảm giá."));
+    switch (choose) {
+        case 1 : {
+            alert("Họ và tên: "+fullname +"\n"
+                +"Chứng minh thư: "+IDcard +"\n"
+                +"Sinh ngày: "+dob +"\n"
+                +"Email: "+email +"\n"
+                +"Địa chỉ: "+address +"\n"
+                +"Thành viên cấp: "+Customer +"\n"
+                +"Loại dịch vụ: "+tos +"\n"
+                +"Loại phòng: "+tor +"\n"
+                +"Số ngày thuê: "+rentday +"\n");
+            break;
+        }
+        case 2 : {
+            let edit = parseInt(prompt("1.Họ và tên: "+fullname +"\n"
+                +"2.Chứng minh thư: "+IDcard +"\n"
+                +"3.Sinh ngày: "+dob +"\n"
+                +"4.Email: "+email +"\n"
+                +"5.Địa chỉ: "+address +"\n"
+                +"6.Thành viên cấp: "+Customer +"\n"
+                +"7.Loại dịch vụ: "+tos +"\n"
+                +"8.Loại phòng: "+tor +"\n"
+                +"9.Số ngày thuê: "+rentday +"\n"));
+            switch (edit) {
+                case 1 : {
+                    fullname = prompt("Tên bạn là: ");
+                    break;
+                }
+                case 2 : {
+                    IDcard = prompt("Số chứng minh thư của bạn là: ");
+                    break;
+                }
+                case 3 : {
+                    dob = prompt("Ngày sinh của bạn là: ");
+                    break;
+                }
+                case 4 : {
+                    email = prompt("Email của bạn là: ");
+                    break;
+                }
+                case 5 : {
+                    address = prompt("Địa chỉ của bạn là: ");
+                    break;
+                }
+                case 6 : {
+                    Customer = prompt("Cấp độ thành viên của bạn là: ");
+                    break;
+                }
+                case 7 : {
+                    tos = prompt("Loại dịch vụ bạn chọn là: ");
+                    break;
+                }
+                case 8 : {
+                    tor = prompt("Loại phòng bạn chọn là: ");
+                    break;
+                }
+                case 9 : {
+                    IDcard = prompt("Số ngày bạn muốn thuê là: ");
+                    break;
+                }
+                default: {
+                    alert("Failed");
+                    break;
+                }
+            }
+            alert("Họ và tên: "+fullname +"\n"
+                +"Chứng minh thư: "+IDcard +"\n"
+                +"Sinh ngày: "+dob +"\n"
+                +"Email: "+email +"\n"
+                +"Địa chỉ: "+address +"\n"
+                +"Thành viên cấp: "+Customer +"\n"
+                +"Loại dịch vụ: "+tos +"\n"
+                +"Loại phòng: "+tor +"\n"
+                +"Số ngày thuê: "+rentday +"\n");
+            break;
+        }
+        case 3 : {
+            alert("Tí nữa làm");
+            break;
+        }
+        default: {
+            alert("Sự lựa chọn của bạn không có trong trình đơn, vui lòng chọn lại.");
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let i = 0;
+    let number = []
+    for (;i < 10; i++) {
+        number[i] = prompt("Nhập vào phần tử thứ "+i +" của mảng");
+    }
+    alert(number);
+    let j = 0;
+    let z = 0;
+    for (;j < number.length; j++) {
+        if (number[j] < 0) {
+            z++;
+        }
+    }document.write(z);
+</script>
+</body>
+</html>
