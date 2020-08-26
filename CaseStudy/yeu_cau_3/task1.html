@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1</title>
+</head>
+<body>
+<script>
+    let fullname = prompt('Vui lòng nhập họ và tên của bạn: ');
+
+    let kiemTra = false;
+    do {
+        let IDcard = prompt('Vui lòng nhập số CMND của bạn: ');
+        if (!isNaN(IDcard)) {
+            IDcard = parseFloat(IDcard);
+        }
+        if (!Number.isInteger(IDcard)) {
+            alert("CMND của bạn nhập không đúng.");
+            continue;
+        }
+        if (IDcard > 100000000 || IDcard < 9999999) {
+            alert("CMND của bạn nhập không đúng.");
+            continue;
+        }
+        kiemTra = true;
+    }while (!kiemTra);
+
+    kiemTra = false;
+    do {
+        let dob = prompt('Ngày tháng năm sinh của bạn (dd/mm/yyyy): ');
+        if (dob.charAt(2)==="/" && dob.charAt(5)==="/") {
+            let day = dob.substring(0,2);
+            let month = dob.substring(3,5);
+            let year = dob.substring(6,10);
+            if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+                day = Number.parseFloat(day);
+                month = Number.parseFloat(month);
+                year = Number.parseFloat(year);
+                if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                    if (day < 31 && month < 13 && year > 999) {
+                        kiemTra = true;
+                    }
+                }
+            }
+        }
+        if (!kiemTra) {
+            alert("Ngày tháng năm sinh bạn nhập không đúng.");
+        }
+    }while (!kiemTra)
+
+    kiemTra = false;
+    do {
+        let aCong = 0;
+        let dauCham = 0;
+        let email = prompt('Vui lòng nhập email của bạn: ');
+        for (let i = 0; i < email.length; i++) {
+            if (email.charAt(i) === "@") {
+                aCong++;
+                for (let j = 0; j < email.length; j++) {
+                    if (email.charAt(j) === "."){
+                        dauCham++;
+                    }
+                }
+            }
+        }
+        if (aCong != 1 || dauCham < 1) {
+            alert("Email bạn nhập không đúng.");
+        }else {
+            kiemTra = true;
+        }
+    }while (!kiemTra);
+
+    let address = prompt('Vui lòng nhập địa chỉ của bạn: ');
+    let Customer = prompt('Customer(Diamond/Platinum/Gold/Siver/Member): ');
+    let tos = prompt('Loại hình dịch vụ(Villa/House/Room): ');
+    // tos = type of service
+    let rentday = parseInt(prompt('Bạn muốn thuê bao nhiêu ngày: '));
+    // tor = type of room
+    let tor = prompt('Loại phòng(Vip/Business/Normal): ');
+</script>
+</body>
+</html>

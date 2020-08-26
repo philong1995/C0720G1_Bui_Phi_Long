@@ -10,7 +10,7 @@
     let IDcard = "197347541";
     let dob = "01/04/1995";
     let email = "long.01.04.1995@gmail.com";
-    let address = "21/32 Trường Sơn - Cẩm Lệ - Đà Nẵng";
+    let address = "Đà Nẵng";
     let Customer = "Diamond";
     let tos = "Villa";
     // tos = type of service
@@ -84,8 +84,7 @@
                     alert("Failed");
                     break;
                 }
-            }
-            alert("Họ và tên: "+fullname +"\n"
+            }alert("Họ và tên: "+fullname +"\n"
                 +"Chứng minh thư: "+IDcard +"\n"
                 +"Sinh ngày: "+dob +"\n"
                 +"Email: "+email +"\n"
@@ -97,7 +96,49 @@
             break;
         }
         case 3 : {
-            alert("Tí nữa làm");
+            let saleAddress = address;
+            if (saleAddress === "Đà Nẵng") {
+                saleAddress = parseInt(20);
+            }else if (saleAddress === "Huế") {
+                saleAddress = parseInt(10);
+            }else if (saleAddress === "Quảng Nam") {
+                saleAddress = parseInt(5);
+            }else {
+                saleAddress = parseInt(0);
+            }
+            let saleRentday = rentday;
+            if (saleRentday > 7) {
+                saleRentday = parseInt(30);
+            } else if (saleRentday <= 7 || saleRentday >= 5 ) {
+                saleRentday = parseInt(20);
+            } else if (saleRentday <= 4 || saleRentday >= 2 ) {
+                saleRentday = parseInt(10);
+            } else {
+                saleRentday = parseInt(0);
+            }
+            let saleCustomer = Customer;
+            if (saleCustomer === "Diamond") {
+                saleCustomer = parseInt(15);
+            } else if (saleCustomer === "Platinum") {
+                saleCustomer = parseInt(10);
+            } else if (saleCustomer === "Gold") {
+                saleCustomer = parseInt(5);
+            } else if (saleCustomer === "Platinum") {
+                saleCustomer = parseInt(2);
+            } else {
+                saleCustomer = parseInt(0);
+            }
+            let saleTos = tos;
+            if (saleTos === "Villa") {
+                saleTos = parseInt(300);
+            }else if (saleTos === "House") {
+                saleTos = parseInt(200);
+            }else if (saleTos === "Room") {
+                saleTos = parseInt(100);
+            }
+            let sale = saleRentday + saleCustomer +saleAddress;
+            let totalPay = saleTos*rentday*(1-sale/100);
+            alert("Số tiền bạn phải thanh toán là "+totalPay+"$");
             break;
         }
         default: {

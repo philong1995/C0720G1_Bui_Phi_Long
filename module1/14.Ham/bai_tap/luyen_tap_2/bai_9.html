@@ -6,21 +6,40 @@
 </head>
 <body>
 <script>
-    function kiemTra (array) {
-        i = 0;
-        j = 0;
-        for (; i < x.length; i++) {
-            if (x[i] >= "a" && x[i] <= "z") {
-                j++;
-            } else {
-                j = -1;
+    // function kiemTra (array) {
+    //     i = 0;
+    //     j = 0;
+    //     for (; i < x.length; i++) {
+    //         if (x[i] >= "a" && x[i] <= "z") {
+    //             j++;
+    //         } else {
+    //             j = -1;
+    //         }
+    //     }
+    //     return j;
+    // }
+    // let x = ["1","2","b","s","3","4","c"];
+    // let hienThi = kiemTra(x);
+    // alert(hienThi);
+    let arrayString=["0","a","2","3","b","c","d","f","0","a","2","b","c","b","c"];
+    let  char=prompt("Enter a Number");
+    alert(findChar(arrayString,char));
+
+    function findChar(array,char) {
+        let count=0;
+        let result=0;
+        for (let i=0;i<array.length;i++){
+            if (char==array[i]) {
+                count++
             }
         }
-        return j;
+        if (count>=1) {
+            result=count;
+        }else {
+            result=-1;
+        }
+        return result;
     }
-    let x = [1,2,b,s,3,4,c];
-    let hienThi = kiemTra(x);
-    alert(hienThi);
 
 </script>
 </body>

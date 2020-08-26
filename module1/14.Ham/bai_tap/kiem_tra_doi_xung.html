@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm Tra Đối Xứng</title>
+</head>
+<body>
+<script>
+    function kiemTraTuDoiXung(chuoi) {
+        for (let i = 0; i < chuoi.length / 2; i++) {
+            if (chuoi.charAt(i) != chuoi.charAt(chuoi.length - 1 - i)) {
+                return false;
+            }
+        }
+        return true;
+    }
+    let chuoi = "1234321";
+    let hienThi = kiemTraTuDoiXung(chuoi);
+    alert(hienThi);
+</script>
+</body>
+</html>
