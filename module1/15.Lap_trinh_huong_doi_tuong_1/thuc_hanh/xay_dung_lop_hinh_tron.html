@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hình Tròn</title>
+</head>
+<body>
+<script>
+    class Circle {
+        constructor(Radius, Area) {
+            this.radius = Radius;
+            Area = Math.PI * Radius * Radius
+            this.area = Area;
+
+        }
+        getRadius () {
+            return this.radius;
+        }
+        getArea () {
+            return this.area;
+        }
+    }
+    let circle = new Circle(2);
+    let radius = circle.getRadius(); // 2
+    let area = circle.getArea(); // 12.566370614359172
+    alert("radius: " + radius + "; area: " + area);
+
+</script>
+</body>
+</html>

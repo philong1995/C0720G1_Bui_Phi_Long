@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi nhiệt độ</title>
+</head>
+<body>
+<script>
+    class temperature {
+        constructor(Celcius) {
+            this.celcius = Celcius;
+        }
+        getCelcius () {
+            return this.celcius
+        }
+        getFahrenheit () {
+            return (9/5) * this.celcius + 32;
+        }
+        getKelvin () {
+            return this.celcius + 273.15;
+        }
+    }
+    let swapTemperature = new temperature(parseFloat(prompt("Nhập độ C bạn muốn đổi: ")));
+    let celcius = swapTemperature.getCelcius()
+    let fahrenheit = swapTemperature.getFahrenheit();
+    let kelvin = swapTemperature.getKelvin();
+    alert("Khi ở "+celcius +" độ C, thì độ F là "+fahrenheit +" và độ K là "+kelvin);
+</script>
+</body>
+</html>

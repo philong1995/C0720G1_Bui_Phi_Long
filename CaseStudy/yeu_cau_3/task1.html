@@ -74,7 +74,20 @@
     let Customer = prompt('Customer(Diamond/Platinum/Gold/Siver/Member): ');
     let tos = prompt('Loại hình dịch vụ(Villa/House/Room): ');
     // tos = type of service
-    let rentday = parseInt(prompt('Bạn muốn thuê bao nhiêu ngày: '));
+    kiemTra = false;
+    do {
+        let rentday = prompt('Bạn muốn thuê bao nhiêu ngày: ');
+        if (!isNaN(rentday)) {
+            rentday = Number.parseFloat(rentday);
+            if (Number.isInteger(rentday)) {
+                kiemTra = true;
+            }
+        }
+        if (!kiemTra) {
+            alert("Số ngày thuê không phải là số nguyên dương");
+        }
+    }while (!kiemTra)
+
     // tor = type of room
     let tor = prompt('Loại phòng(Vip/Business/Normal): ');
 </script>

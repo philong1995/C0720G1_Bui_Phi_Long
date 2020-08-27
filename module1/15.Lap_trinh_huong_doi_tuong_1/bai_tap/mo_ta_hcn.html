@@ -5,8 +5,44 @@
     <title>Mô Tả Lớp HCN</title>
 </head>
 <body>
+<canvas id="Rectangle" width="200" height="200" style="border: 1px solid black;"></canvas>
 <script>
-    
+    class Rectangle {
+        constructor(Width, Height) {
+            this.width = Width;
+            this.height = Height;
+        }
+        getWidth () {
+            return this.width;
+        }
+        getHeight () {
+            return this.height;
+        }
+        getPerimeter () {
+            return (this.width+this.height)*2;
+        }
+        getArea () {
+            return this.width*this.height;
+        }
+    }
+    let rectangle = new Rectangle(
+        parseFloat(prompt("Nhập chiều rộng HCN: ")),
+        parseFloat(prompt("Nhập chiều dài HCN: "))
+    )
+    let width = rectangle.getWidth();
+    let height = rectangle.getHeight();
+    let perimeter = rectangle.getPerimeter();
+    let area = rectangle.getArea();
+    document.write("Hình chữ nhật có chiều rộng là "+ width +" và chiều dài là "+ height +"<br/>"
+        +"Hình chữ nhật có chu vi là "+perimeter +"<br/>"
+        +"Hình chữ nhật có diện tích là "+area);
+
+
+    let canvas = document.getElementById("Rectangle");
+    let ctx = canvas.getContext("2d");
+    ctx.fillStyle = "red"; // Tô màu
+    // ctx.stroke() // vẽ viền
+    ctx.fillRect(0,0,width,height);
 </script>
 </body>
 </html>
