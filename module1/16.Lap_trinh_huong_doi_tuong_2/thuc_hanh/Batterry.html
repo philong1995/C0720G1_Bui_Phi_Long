@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Batterry</title>
+    <title>Battery</title>
 </head>
 <body>
+<script>
+    class Battery {
+        constructor(Energy, decreaseEnergy) {
+            this.energy = Energy;
+            if (Energy > 0) {
+                Energy--;
+                decreaseEnergy = Energy;
+            }
+            this.decrease = this.decreaseEnergy
+        }
+    }
 
+</script>
 </body>
 </html>

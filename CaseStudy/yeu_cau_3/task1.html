@@ -7,7 +7,19 @@
 <body>
 <script>
     let fullname = prompt('Vui lòng nhập họ và tên của bạn: ');
-
+    fullname = fullname.trim().toLowerCase();
+    let tempname = " ";
+    for (let i = 0; i < fullname.length;i++) {
+        if (fullname.charAt(i) === " " && fullname.charAt(i+1) === " ") {
+            continue;
+        }
+        if ( i === 0 || fullname.charAt(i - 1) === " ") {
+            tempname += fullname.charAt(i).toUpperCase();
+            continue;
+    }
+        tempname += fullname.charAt(i)
+    }
+    alert(tempname);
     let kiemTra = false;
     do {
         let IDcard = prompt('Vui lòng nhập số CMND của bạn: ');

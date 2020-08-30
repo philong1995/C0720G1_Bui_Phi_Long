@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
 </head>
 <body>
-$END$
+<script>
+    let arrName = [];
+    while ( true ) {
+    let choose = parseInt(prompt("1.Thêm customer." + "\n" + "2.Xoá customer"));
+        switch (choose) {
+            case 1 : {
+                let number = parseInt(prompt("Chọn số người bạn muốn nhập: "));
+                for (let i = 0; i < number; i++) {
+                    let nameCustomer = prompt("Nhập tên người dùng muốn thêm: ");
+                    arrName.push(nameCustomer);
+                }
+                let resuit = "";
+                arrName.sort(); // sắp xếp từ a - z
+                // arrName.reverse(); - Sắp theo thứ tự từ z - a
+                for (let i = 0; i < arrName.length; i++) {
+                    resuit += +(i + 1) + ". " + arrName[i] + "\n";
+                }
+                alert(resuit);
+                break;
+            }
+            case 2 : {
+                let check = false;
+                let nameCustomer = prompt("Nhập tên người dùng muốn xoá: ");
+                for (let i = 0; i < arrName.length; i++) {
+                    if (nameCustomer === arrName[i]) {
+                        arrName.splice(i,1); // cắt 1 phần tử thứ i.
+                        check = true;
+                    }
+                }
+                if (!check) {
+                    alert("Người dùng này không tồn tại");
+                }
+                let resuit = "";
+                arrName.sort(); // sắp xếp từ a - z
+                // arrName.reverse(); - Sắp theo thứ tự từ z - a
+                for (let i = 0; i < arrName.length; i++) {
+                    resuit += +(i + 1) + ". " + arrName[i] + "\n";
+                }
+                alert(resuit);
+                break;
+            }
+            default : {
+                alert("Failed Error.");
+            }
+        }
+    }
+</script>
 </body>
 </html>
