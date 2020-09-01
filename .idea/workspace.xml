@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b10675-5da6-411e-adb5-7bb05b994910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Yeu_cau_4/task_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Yeu_cau_5/task_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/16.Lap_trinh_huong_doi_tuong_2/bai_tap/Adam_Eva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/16.Lap_trinh_huong_doi_tuong_2/bai_tap/bong_den.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/16.Lap_trinh_huong_doi_tuong_2/bai_tap/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/16.Lap_trinh_huong_doi_tuong_2/bai_tap/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/yeu_cau_3/task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/yeu_cau_3/task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/16.Lap_trinh_huong_doi_tuong_2/thuc_hanh/Batterry.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/16.Lap_trinh_huong_doi_tuong_2/thuc_hanh/Batterry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Yeu_cau_5/task_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Yeu_cau_5/task_1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +68,8 @@
       <workItem from="1598578533057" duration="3444000" />
       <workItem from="1598802062971" duration="3267000" />
       <workItem from="1598806913875" duration="2603000" />
+      <workItem from="1598842841818" duration="19029000" />
+      <workItem from="1598923192334" duration="71000" />
     </task>
     <servers />
   </component>
