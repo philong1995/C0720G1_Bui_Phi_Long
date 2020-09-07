@@ -19,7 +19,8 @@
     }
         tempname += fullname.charAt(i)
     }
-    alert(tempname);
+    document.write('Tên của bạn là: '+fullname);
+    document.write('<br/>');
     let kiemTra = false;
     do {
         let IDcard = prompt('Vui lòng nhập số CMND của bạn: ');
@@ -30,20 +31,22 @@
             alert("CMND của bạn nhập không đúng.");
             continue;
         }
-        if (IDcard > 100000000 || IDcard < 9999999) {
+        if (IDcard < 100000000 || IDcard > 999999999) {
             alert("CMND của bạn nhập không đúng.");
             continue;
         }
         kiemTra = true;
+        document.write('Số CMND của bạn là: '+IDcard);
+        document.write('<br/>');
     }while (!kiemTra);
 
     kiemTra = false;
     do {
-        let dob = prompt('Ngày tháng năm sinh của bạn (dd/mm/yyyy): ');
-        if (dob.charAt(2)==="/" && dob.charAt(5)==="/") {
-            let day = dob.substring(0,2);
-            let month = dob.substring(3,5);
-            let year = dob.substring(6,10);
+        let birthday = prompt('Ngày tháng năm sinh của bạn (dd/mm/yyyy): ');
+        if (birthday.charAt(2)==="/" && birthday.charAt(5)==="/") {
+            let day = birthday.substring(0,2);
+            let month = birthday.substring(3,5);
+            let year = birthday.substring(6,10);
             if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
                 day = Number.parseFloat(day);
                 month = Number.parseFloat(month);
@@ -58,6 +61,8 @@
         if (!kiemTra) {
             alert("Ngày tháng năm sinh bạn nhập không đúng.");
         }
+        document.write('Ngày sinh của bạn là: '+birthday);
+        document.write('<br/>');
     }while (!kiemTra)
 
     kiemTra = false;
@@ -75,17 +80,24 @@
                 }
             }
         }
-        if (aCong != 1 || dauCham < 1) {
+        if (aCong !== 1 || dauCham < 1) {
             alert("Email bạn nhập không đúng.");
         }else {
             kiemTra = true;
         }
+        document.write('Email của bạn là: '+email);
+        document.write('<br/>');
     }while (!kiemTra);
 
     let address = prompt('Vui lòng nhập địa chỉ của bạn: ');
-    let Customer = prompt('Customer(Diamond/Platinum/Gold/Siver/Member): ');
-    let tos = prompt('Loại hình dịch vụ(Villa/House/Room): ');
-    // tos = type of service
+    document.write('Địa chỉ của bạn: '+address);
+    document.write('<br/>');
+    let customer = prompt('Customer(Diamond/Platinum/Gold/Siver/Member): ');
+    document.write('Customer của bạn là: '+customer);
+    document.write('<br/>');
+    let service = prompt('Loại hình dịch vụ(Villa/House/Room): ');
+    document.write('Bạn muốn thuê: '+service);
+    document.write('<br/>');
     kiemTra = false;
     do {
         let rentday = prompt('Bạn muốn thuê bao nhiêu ngày: ');
@@ -98,10 +110,12 @@
         if (!kiemTra) {
             alert("Số ngày thuê không phải là số nguyên dương");
         }
+        document.write('Số ngày bạn muốn thuê là: '+rentday);
+        document.write('<br/>');
     }while (!kiemTra)
-
-    // tor = type of room
-    let tor = prompt('Loại phòng(Vip/Business/Normal): ');
+    let typeroom = prompt('Loại phòng(Vip/Business/Normal): ');
+    document.write('Bạn muốn thuê phòng: '+typeroom);
+    document.write('<br/>');
 </script>
 </body>
 </html>

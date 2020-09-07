@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    function tryRemoveFromArray(arr) {
+        let x = parseInt(prompt("Enter your number: "));
+        let screen = "";
+        if(arr.length === 0)
+            return -1;
+        for (let i = 0;i < arr.length-1; i++) {
+            if ( arr[i] !== x) {
+                screen = arr;
+            }
+            else if ( arr[i] === x) {
+                screen = arr.splice(i,1);
+                i--;
+            }
+        }return screen;
+    }
+    let arr = [3, 5, 5, 8, -3, 7, 9];
+    let tryRemove = tryRemoveFromArray(arr);
+    console.log(tryRemove);
+</script>
+</body>
+</html>

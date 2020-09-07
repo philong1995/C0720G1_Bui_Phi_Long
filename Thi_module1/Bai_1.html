@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+    function findMax(arr) {
+        if(arr.length === 0)
+            return -1;
+        let max = arr[0];
+        for(let i = 1; i < arr.length; i++){
+            if(arr[i] > max){
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+    let arr = [3, 5, 1, 8, -3, 7, 9]
+    let max = findMax(arr);
+    alert(max);
+</script>
+</body>
+</html>

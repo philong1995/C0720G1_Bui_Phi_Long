@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function iterArr(arr) {
+    //     let sum = 0;
+    //     let i = 0;
+    //     for(;i < arr.length; i++) {
+    //         sum += arr[i];
+    //     }
+    //     return sum;
+    // }
+    // let arr = [1,2,3,4];
+    // let hienThi = iterArr(arr);
+    // alert(hienThi);
+    function greaterY(arr, Y) {
+        let arr = [];
+        // let N = parseInt(prompt());
+        // for(let j = 0;j < N; j++) {
+        //     arr[j] = parseInt(prompt());
+        // }
+        let Y = parseInt(prompt());
+        let count = 0;
+        for (let i = 0; i< arr.length; i++) {
+            if(Y < arr[i]) {
+                count++;
+            }
+        }
+        return count;
+</script>
+</body>
+</html>

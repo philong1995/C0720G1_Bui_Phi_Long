@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<script>
+    let xauS = prompt("Nhập chuỗi xâu S: ");//abc
+    let xauT = prompt("Nhập chuỗi xâu T: ");//abcabcabc
+    let count = 0;
+    let a = xauT.indexOf(xauS);
+    let ketQua = "";
+    for (let i = 0; i <= xauT.length; i++) {
+        if (xauS === xauT.substr(i,xauS.length)) {
+            count++;
+            ketQua = "có "+count +" chuỗi "+xauS +" trong chuỗi "+xauT;
+        }
+    }
+    alert(ketQua);
+</script>
+</body>
+</html>

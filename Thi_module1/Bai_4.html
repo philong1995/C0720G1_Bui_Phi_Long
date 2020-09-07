@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #000000"></canvas>
+<script>
+    class Circle {
+        constructor(x,y,Radius) {
+            this.x = x;
+            this.y = y;
+            this.radius = Radius;
+        }
+        getX () {
+            return this.x
+        }
+        getY () {
+            return this.y
+        }
+        getRadius () {
+            return this.radius;
+        }
+    }
+    let circle= new Circle(100, 100, 100);
+    let a = circle.getX();
+    let b = circle.getY();
+    let c = circle.getRadius();
+    let color = "#000000"
+    let ctx = document.getElementById("myCanvas").getContext("2d");
+    ctx.beginPath();
+    ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+    ctx.fillStyle = color;
+    ctx.fill();
+</script>
+</body>
+</html>

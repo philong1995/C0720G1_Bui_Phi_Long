@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+</head>
+<body>
+<script>
+    class Employee {
+        constructor(fullname,birthday,idcard,phoneNum,email,level,job) {
+            this.Name = fullname;
+            this.Birthday = birthday;
+            this.ID = idcard;
+            this.PhoneNum = phoneNum;
+            this.Email = email;
+            this.Level = level;
+            this.Job = job;
+        }
+        setName(fullname) {
+            this.Name = fullname;
+        }
+        getName() {
+            return this.Name;
+        }
+        setBirthday(birthday) {
+            this.Birthday = birthday;
+        }
+        getBirthday() {
+            return this.Birthday;
+        }
+        setID(idcard) {
+            this.ID = idcard;
+        }
+        getID() {
+            return this.ID;
+        }
+        setPhoneNum(phoneNum) {
+            this.PhoneNum = phoneNum;
+        }
+        getPhoneNum() {
+            return this.PhoneNum;
+        }
+        setEmail(email) {
+            this.Email = email;
+        }
+        getEmail() {
+            return this.Email;
+        }
+        setLevel(level) {
+            this.Level = level;
+        }
+        getLevel() {
+            return this.Level;
+        }
+        setJob(job) {
+            this.Job = job;
+        }
+        getJob() {
+           return this.Job;
+        }
+        getSalary() {
+            if(this.getJob() === "Manager") {
+                this.Salary = 500;
+            }
+            else if (this.getJob() === "Sale") {
+                this.Salary = 300;
+            }
+            else if (this.getJob() === "Marketing") {
+                this.Salary = 200;
+            }
+            return this.Salary;
+        }
+    }
+    let listEmployee = [];
+    let regexEmail = /\S+@\S+\.\S+/;
+    let regexDob = /^\d{2}[./-]\d{2}[./-]\d{4}$/;
+    let regexID = /^[\d]{9,9}$/;
+    function displayMainMenu () {
+        while (true) {
+            let choose = parseInt(prompt("1.Add new Employee." + "\n" +
+                "2.Display Information Employee." + "\n" +
+                "3.Salary of Employee." + "\n" +
+                "4.Exit."));
+            switch (choose) {
+                case 1 : {
+                    addNewEmployee();
+                    break;
+                }
+                case 2 : {
+                    displayEmployee();
+                    break;
+                }
+                case 3 : {
+                    displaySalary();
+                    break;
+                }
+                case 4 : {
+                    let choose2 = parseInt(prompt("Do you want exit?" + "\n"
+                        + "1.Yes " + " 2.No"))
+                    switch (choose2) {
+                        case 1 : {
+                            return false;
+                        }
+                        case 2 : {
+                            displayMainMenu();
+                            break;
+                        }
+                        default : {
+                            alert("Failed Error");
+                            continue;
+                        }
+                    }
+                }
+                default : {
+                    alert("Failed Error");
+                }
+            }
+        }
+    }
+    function addNewEmployee() {
+        let employeeNew = new Employee();
+        let fullname = prompt('Vui lòng nhập họ và tên của bạn: ');
+        fullname = fullname.trim().toLowerCase();
+        let tempname1 = " ";
+        for (let i = 0; i < fullname.length;i++) {
+            if (fullname.charAt(i) === " " && fullname.charAt(i+1) === " ") {
+                continue;
+            }
+            if ( i === 0 || fullname.charAt(i - 1) === " ") {
+                tempname1 += fullname.charAt(i).toUpperCase();
+                continue;
+            }
+            tempname1 += fullname.charAt(i)
+        }
+
+        let check = false;
+        let birthday;
+        do {
+            birthday = prompt('Ngày tháng năm sinh của bạn (dd/mm/yyyy): ');
+            if (regexDob.test(birthday)) {
+                check = true;
+            }else {
+                alert("Ngày sinh không hợp lệ, vui lòng nhập lại.");
+            }
+        }while (!check)
+        check = false;
+
+        let idcard;
+        do {
+            idcard = prompt('Vui lòng nhập số CMND của bạn: ');
+            if (regexID.test(idcard)) {
+                check = true;
+            }else {
+                alert("IDcard không hợp lệ, vui lòng nhập lại.");
+            }
+        }while (!check);
+        check = false;
+
+        let phoneNum = prompt('Vui lòng nhập số điện thoại của bạn: ');
+
+        let email;
+        do {
+            email = prompt('Vui lòng nhập email của bạn: ');
+            if (regexEmail.test(email)) {
+                check = true;
+            }else {
+                alert("Email không hợp lệ, vui lòng nhập lại.");
+            }
+        }while (!check);
+
+        let level = prompt("Vui lòng nhập trình độ học vấn của bạ: ");
+        let job = prompt("Vui lòng nhập vị trí ứng tuyển của bạn(Manager/Sale/Marketing): ");
+        job = job.trim().toLowerCase();
+        let tempname2 = " ";
+        for (let i = 0; i < job.length;i++) {
+            if (job.charAt(i) === " " && job.charAt(i+1) === " ") {
+                continue;
+            }
+            if ( i === 0 || job.charAt(i - 1) === " ") {
+                tempname2 += job.charAt(i).toUpperCase();
+                continue;
+            }
+            tempname2 += job.charAt(i)
+        }
+
+        employeeNew.setName(fullname);
+        employeeNew.setBirthday(birthday);
+        employeeNew.setID(idcard);
+        employeeNew.setPhoneNum(phoneNum);
+        employeeNew.setEmail(email);
+        employeeNew.setLevel(level);
+        employeeNew.setJob(job);
+        listEmployee.push(employeeNew);
+        alert("Bạn đã thêm thành công.");
+        displayMainMenu();
+    }
+    function displayEmployee () {
+        let temp = "";
+        for (let i = 0; i < listEmployee.length; i++) {
+            temp += i +"."+listEmployee[i].getName() + "\n";
+        }
+        let choose2 = prompt("chọn số của Employee bạn muốn hiển thị: " +"\n" +temp);
+        alert("1.Họ và tên: "+listEmployee[choose2].getName() +"\n"
+            +"2.Sinh ngày: "+listEmployee[choose2].getBirthday() +"\n"
+            +"3.Chứng minh thư: "+listEmployee[choose2].getID() +"\n"
+            +"4.Số điện thoại: "+listEmployee[choose2].getPhoneNum() +"\n"
+            +"5.Email: "+listEmployee[choose2].getEmail() +"\n"
+            +"6.Trình độ học vấn: "+listEmployee[choose2].getLevel() +"\n"
+            +"7.Vị trí ứng tuyển: "+listEmployee[choose2].getJob() );
+    }
+    function displaySalary () {
+        let temp = " ";
+        for (let i = 0; i < listEmployee.length; i++) {
+            temp += i+"."+listEmployee[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt("Chọn số phía trước người mà bạn muốn hiển thị: "+ "\n"+temp));
+        alert("Salary của bạn là: "+listEmployee[chooseDisplay].getSalary());
+    }
+    displayMainMenu();
+</script>
+</body>
+</html>

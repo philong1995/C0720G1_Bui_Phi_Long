@@ -8,141 +8,143 @@
 <script>
     let fullname = "Bùi Phi Long";
     let IDcard = "197347541";
-    let dob = "01/04/1995";
+    let birthday = "01/04/1995";
     let email = "long.01.04.1995@gmail.com";
     let address = "Đà Nẵng";
-    let Customer = "Diamond";
-    let tos = "Villa";
-    // tos = type of service
+    let customer = "Diamond";
+    let service = "Villa";
     let rentday = "7";
-    // tor = type of room
-    let tor = "Vip";
-    let choose = parseInt(prompt("1.Hiển thị toàn bộ thông tin khách hàng." + "\n"
-        +"2.Chỉnh sửa thông tin khách hàng." + "\n"
-        +"3.Hiển thị giá sau khi được giảm giá."));
-    switch (choose) {
-        case 1 : {
-            alert("Họ và tên: "+fullname +"\n"
-                +"Chứng minh thư: "+IDcard +"\n"
-                +"Sinh ngày: "+dob +"\n"
-                +"Email: "+email +"\n"
-                +"Địa chỉ: "+address +"\n"
-                +"Thành viên cấp: "+Customer +"\n"
-                +"Loại dịch vụ: "+tos +"\n"
-                +"Loại phòng: "+tor +"\n"
-                +"Số ngày thuê: "+rentday +"\n");
-            break;
-        }
-        case 2 : {
-            let edit = parseInt(prompt("1.Họ và tên: "+fullname +"\n"
-                +"2.Chứng minh thư: "+IDcard +"\n"
-                +"3.Sinh ngày: "+dob +"\n"
-                +"4.Email: "+email +"\n"
-                +"5.Địa chỉ: "+address +"\n"
-                +"6.Thành viên cấp: "+Customer +"\n"
-                +"7.Loại dịch vụ: "+tos +"\n"
-                +"8.Loại phòng: "+tor +"\n"
-                +"9.Số ngày thuê: "+rentday +"\n"));
-            switch (edit) {
-                case 1 : {
-                    fullname = prompt("Tên bạn là: ");
-                    break;
-                }
-                case 2 : {
-                    IDcard = prompt("Số chứng minh thư của bạn là: ");
-                    break;
-                }
-                case 3 : {
-                    dob = prompt("Ngày sinh của bạn là: ");
-                    break;
-                }
-                case 4 : {
-                    email = prompt("Email của bạn là: ");
-                    break;
-                }
-                case 5 : {
-                    address = prompt("Địa chỉ của bạn là: ");
-                    break;
-                }
-                case 6 : {
-                    Customer = prompt("Cấp độ thành viên của bạn là: ");
-                    break;
-                }
-                case 7 : {
-                    tos = prompt("Loại dịch vụ bạn chọn là: ");
-                    break;
-                }
-                case 8 : {
-                    tor = prompt("Loại phòng bạn chọn là: ");
-                    break;
-                }
-                case 9 : {
-                    IDcard = prompt("Số ngày bạn muốn thuê là: ");
-                    break;
-                }
-                default: {
-                    alert("Failed");
-                    break;
-                }
-            }alert("Họ và tên: "+fullname +"\n"
-                +"Chứng minh thư: "+IDcard +"\n"
-                +"Sinh ngày: "+dob +"\n"
-                +"Email: "+email +"\n"
-                +"Địa chỉ: "+address +"\n"
-                +"Thành viên cấp: "+Customer +"\n"
-                +"Loại dịch vụ: "+tos +"\n"
-                +"Loại phòng: "+tor +"\n"
-                +"Số ngày thuê: "+rentday +"\n");
-            break;
-        }
-        case 3 : {
-            let saleAddress = address;
-            if (saleAddress === "Đà Nẵng") {
-                saleAddress = parseInt(20);
-            }else if (saleAddress === "Huế") {
-                saleAddress = parseInt(10);
-            }else if (saleAddress === "Quảng Nam") {
-                saleAddress = parseInt(5);
-            }else {
-                saleAddress = parseInt(0);
+    let typeroom = "Vip";
+    while (true) {
+        let choose = parseInt(prompt("1.Hiển thị toàn bộ thông tin khách hàng." + "\n"
+            + "2.Chỉnh sửa thông tin khách hàng." + "\n"
+            + "3.Hiển thị giá sau khi được giảm giá."));
+        switch (choose) {
+            case 1 : {
+                alert("Họ và tên: " + fullname + "\n"
+                    + "Chứng minh thư: " + IDcard + "\n"
+                    + "Sinh ngày: " + birthday + "\n"
+                    + "Email: " + email + "\n"
+                    + "Địa chỉ: " + address + "\n"
+                    + "Thành viên cấp: " + customer + "\n"
+                    + "Loại dịch vụ: " + service + "\n"
+                    + "Loại phòng: " + typeroom + "\n"
+                    + "Số ngày thuê: " + rentday + "\n");
+                break;
             }
-            let saleRentday = rentday;
-            if (saleRentday > 7) {
-                saleRentday = parseInt(30);
-            } else if (saleRentday <= 7 || saleRentday >= 5 ) {
-                saleRentday = parseInt(20);
-            } else if (saleRentday <= 4 || saleRentday >= 2 ) {
-                saleRentday = parseInt(10);
-            } else {
-                saleRentday = parseInt(0);
+            case 2 : {
+                let edit = parseInt(prompt("1.Họ và tên: " + fullname + "\n"
+                    + "2.Chứng minh thư: " + IDcard + "\n"
+                    + "3.Sinh ngày: " + birthday + "\n"
+                    + "4.Email: " + email + "\n"
+                    + "5.Địa chỉ: " + address + "\n"
+                    + "6.Thành viên cấp: " + customer + "\n"
+                    + "7.Loại dịch vụ: " + service + "\n"
+                    + "8.Loại phòng: " + typeroom + "\n"
+                    + "9.Số ngày thuê: " + rentday + "\n"));
+                switch (edit) {
+                    case 1 : {
+                        fullname = prompt("Tên bạn là: ");
+                        break;
+                    }
+                    case 2 : {
+                        IDcard = prompt("Số chứng minh thư của bạn là: ");
+                        break;
+                    }
+                    case 3 : {
+                        birthday = prompt("Ngày sinh của bạn là: ");
+                        break;
+                    }
+                    case 4 : {
+                        email = prompt("Email của bạn là: ");
+                        break;
+                    }
+                    case 5 : {
+                        address = prompt("Địa chỉ của bạn là: ");
+                        break;
+                    }
+                    case 6 : {
+                        customer = prompt("Cấp độ thành viên của bạn là: ");
+                        break;
+                    }
+                    case 7 : {
+                        service = prompt("Loại dịch vụ bạn chọn là: ");
+                        break;
+                    }
+                    case 8 : {
+                        typeroom = prompt("Loại phòng bạn chọn là: ");
+                        break;
+                    }
+                    case 9 : {
+                        rentday = prompt("Số ngày bạn muốn thuê là: ");
+                        break;
+                    }
+                    default: {
+                        alert("Failed");
+                        break;
+                    }
+                }
+                alert("Họ và tên: " + fullname + "\n"
+                    + "Chứng minh thư: " + IDcard + "\n"
+                    + "Sinh ngày: " + birthday + "\n"
+                    + "Email: " + email + "\n"
+                    + "Địa chỉ: " + address + "\n"
+                    + "Thành viên cấp: " + customer + "\n"
+                    + "Loại dịch vụ: " + service + "\n"
+                    + "Loại phòng: " + typeroom + "\n"
+                    + "Số ngày thuê: " + rentday + "\n");
+                break;
             }
-            let saleCustomer = Customer;
-            if (saleCustomer === "Diamond") {
-                saleCustomer = parseInt(15);
-            } else if (saleCustomer === "Platinum") {
-                saleCustomer = parseInt(10);
-            } else if (saleCustomer === "Gold") {
-                saleCustomer = parseInt(5);
-            } else if (saleCustomer === "Platinum") {
-                saleCustomer = parseInt(2);
-            } else {
-                saleCustomer = parseInt(0);
+
+            case 3 : {
+                let saleAddress = address;
+                if (saleAddress === "Đà Nẵng") {
+                    saleAddress = parseInt(20);
+                } else if (saleAddress === "Huế") {
+                    saleAddress = parseInt(10);
+                } else if (saleAddress === "Quảng Nam") {
+                    saleAddress = parseInt(5);
+                } else {
+                    saleAddress = parseInt(0);
+                }
+                let saleRentday = rentday;
+                if (saleRentday > 7) {
+                    saleRentday = parseInt(30);
+                } else if (saleRentday <= 7 || saleRentday >= 5) {
+                    saleRentday = parseInt(20);
+                } else if (saleRentday <= 4 || saleRentday >= 2) {
+                    saleRentday = parseInt(10);
+                } else {
+                    saleRentday = parseInt(0);
+                }
+                let saleCustomer = customer;
+                if (saleCustomer === "Diamond") {
+                    saleCustomer = parseInt(15);
+                } else if (saleCustomer === "Platinum") {
+                    saleCustomer = parseInt(10);
+                } else if (saleCustomer === "Gold") {
+                    saleCustomer = parseInt(5);
+                } else if (saleCustomer === "Platinum") {
+                    saleCustomer = parseInt(2);
+                } else {
+                    saleCustomer = parseInt(0);
+                }
+                let saleTos = service;
+                if (saleTos === "Villa") {
+                    saleTos = parseInt(300);
+                } else if (saleTos === "House") {
+                    saleTos = parseInt(200);
+                } else if (saleTos === "Room") {
+                    saleTos = parseInt(100);
+                }
+                let sale = saleRentday + saleCustomer + saleAddress;
+                let totalPay = saleTos * rentday * (1 - sale / 100);
+                alert("Số tiền bạn phải thanh toán là " + totalPay + "$");
+                break;
             }
-            let saleTos = tos;
-            if (saleTos === "Villa") {
-                saleTos = parseInt(300);
-            }else if (saleTos === "House") {
-                saleTos = parseInt(200);
-            }else if (saleTos === "Room") {
-                saleTos = parseInt(100);
+            default: {
+                alert("Sự lựa chọn của bạn không có trong trình đơn, vui lòng chọn lại.");
             }
-            let sale = saleRentday + saleCustomer +saleAddress;
-            let totalPay = saleTos*rentday*(1-sale/100);
-            alert("Số tiền bạn phải thanh toán là "+totalPay+"$");
-            break;
-        }
-        default: {
-            alert("Sự lựa chọn của bạn không có trong trình đơn, vui lòng chọn lại.");
         }
     }
 </script>

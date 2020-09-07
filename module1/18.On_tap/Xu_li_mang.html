@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xử lí mảng</title>
+</head>
+<body>
+<script>
+    // 1) Chuyển mảng về dạng chuỗi ký tự
+    // - Phương thức toString() dùng để chuyển một mảng về dạng chuỗi ký tự.
+    var mobile = ["HTC", "Nokia", "SamSung", "LG", "Apple"];
+
+    var text = mobile.toString();
+
+    document.write(text);le
+
+    document.write("<hr>Kiểu dữ liệu của biến text là: " + typeof text);
+    // kết quả : Kiểu dữ liệu của biến text là: string
+
+    // - Ngoài ra, ta cũng có thể dùng phương thức join() để chuyển một mảng về dạng chuỗi ký tự.
+    //
+    // - Tuy nhiên, đối với phương thức join() thì ta có thể xác định thêm ký tự đặt giữa các phần tử
+    // mảng trong chuỗi trả về.
+    var mobile = ["HTC", "Nokia", "SamSung", "LG", "Apple"];
+
+    var text = mobile.join("- - -");
+
+    document.write(text);
+
+    document.write("<hr>Kiểu dữ liệu của biến text là: " + typeof text);
+    //kết quả :
+    ------------------------------------------------------------------------------
+
+</script>
+</body>
+</html>

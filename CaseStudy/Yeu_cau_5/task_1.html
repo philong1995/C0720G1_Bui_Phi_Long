@@ -47,7 +47,18 @@
                     break;
                 }
                 case 5 : {
-                    break;
+                    let choose2 = parseInt(prompt("Do you want exit?" + "\n"
+                            + "1.Yes " + " 2.No"))
+                    if (choose2 === 1) {
+                        return true;
+                    }
+                    else if (choose2 === 2) {
+                        displayMainMenu();
+                    }
+                    else {
+                        alert("Failed Error");
+                        continue;
+                    }
                 }
                 default : {
                     alert("Failed Error");
@@ -59,23 +70,22 @@
         let infoCustomer = [];
         let fullname = prompt('Vui lòng nhập họ và tên của bạn: ');
         let IDcard = prompt('Vui lòng nhập số CMND của bạn: ');
-        let dob = prompt('Ngày tháng năm sinh của bạn (dd/mm/yyyy): ');
+        let birthday = prompt('Ngày tháng năm sinh của bạn (dd/mm/yyyy): ');
         let email = prompt('Vui lòng nhập email của bạn: ');
         let address = prompt('Vui lòng nhập địa chỉ của bạn: ');
-        let Customer = prompt('Customer(Diamond/Platinum/Gold/Siver/Member): ');
-        let tos = prompt('Loại hình dịch vụ(Villa/House/Room): ');
+        let customer = prompt('Customer(Diamond/Platinum/Gold/Siver/Member): ');
+        let service = prompt('Loại hình dịch vụ(Villa/House/Room): ');
         let rentday = parseInt(prompt('Bạn muốn thuê bao nhiêu ngày: '));
-        let tor = prompt('Loại phòng(Vip/Business/Normal): ');
-
+        let typeroom = prompt('Loại phòng(Vip/Business/Normal): ');
         infoCustomer.push(fullname);
         infoCustomer.push(IDcard);
-        infoCustomer.push(dob);
+        infoCustomer.push(birthday);
         infoCustomer.push(email);
         infoCustomer.push(address);
-        infoCustomer.push(Customer);
-        infoCustomer.push(tos);
+        infoCustomer.push(customer);
+        infoCustomer.push(service);
         infoCustomer.push(rentday);
-        infoCustomer.push(tor);
+        infoCustomer.push(typeroom);
         arrListCustomers.push(infoCustomer);
         alert("Đã thêm thành công thông tin người dùng. ");
         displayMainMenu();
@@ -140,12 +150,12 @@
                 arrListCustomers[choose3][6] = prompt("Loại dịch vụ bạn chọn là: ");
                 break;
             }
-            case 8 : {
-                arrListCustomers[choose3][7] = prompt("Loại phòng bạn chọn là: ");
+            case 9 : {
+                arrListCustomers[choose3][8] = prompt("Loại phòng bạn chọn là: ");
                 break;
             }
-            case 9 : {
-                arrListCustomers[choose3][8] = prompt("Số ngày bạn muốn thuê là: ");
+            case 8 : {
+                arrListCustomers[choose3][7] = prompt("Số ngày bạn muốn thuê là: ");
                 break;
             }
             default: {

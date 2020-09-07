@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhập kí tự cần tìm.")
+    let string = "abczyz123qweraa123a";
+    let count = 0;
+    let ketqua = "";
+    for (let i = 0;i < string.length; i++) {
+        if (string.charAt(i) === a) {
+            count++;
+            ketqua = "có "+count+" kí tự "+a +" trong chuỗi.";
+        }
+        else {
+            ketqua = "không tồn tại kí tự bạn cần tìm trong chuỗi.";
+        }
+    }
+    alert(ketqua);
+</script>
+</body>
+</html>
